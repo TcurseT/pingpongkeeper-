@@ -1,0 +1,35 @@
+.winner {
+  color: green;
+}
+
+.loser {
+  color: red;
+}
+
+.gameOver {
+  color: black;
+  background-color: grey;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+select {
+  width: 3.5rem;
+  height: 1.85rem;
+  color: black;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.me-2 {
+  font-weight: bold;
+  font-size: larger;
+}
